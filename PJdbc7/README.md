@@ -1,5 +1,7 @@
-## Demo: deletar dados
+## Demo: transações
+Referências: https://www.ibm.com/support/knowledgecenter/en/SSGMCP_5.4.0/product-overview/acid.html
 
-*Checklist:*
-* Criar DbIntegrityException
-* Tratar a exceção de integridade referencial
+*API:*
+* setAutoCommit(false)
+*  commit()
+* rollback()
